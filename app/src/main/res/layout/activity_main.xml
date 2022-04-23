@@ -115,14 +115,14 @@
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent">
+
                     <Button
                         android:id="@+id/btnEditar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Editar"
-                        android:textSize="10sp"
                         android:layout_alignParentBottom="true"
-                        android:onClick="sendExplicit"/>
+                        android:text="Editar"
+                        android:textSize="10sp" />
                         />
                 </RelativeLayout>
 
@@ -152,8 +152,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
                 android:drawableLeft="@android:drawable/sym_call_outgoing"
-                android:onClick="callPhone"
-                android:text="@string/llamar"
+                android:text="Llamar"
                 android:textSize="10sp" />
 
             <Button
@@ -164,9 +163,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_toRightOf="@id/button1"
                 android:drawableLeft="@drawable/ic_whatsapp"
-                android:onClick="sendWhatsapp"
                 android:text="@string/whatsapp"
-                android:textSize="10sp"/>
+                android:textSize="10sp" />
 
             <Button
                 android:id="@+id/button3"
@@ -177,9 +175,8 @@
                 android:layout_toRightOf="@id/button2"
                 android:drawableLeft="@drawable/ic_mensaje"
                 android:drawableTint="@color/white"
-                android:onClick="sendMessage"
                 android:text="@string/mensaje"
-                android:textSize="10sp"/>
+                android:textSize="10sp" />
 
         </RelativeLayout>
 
